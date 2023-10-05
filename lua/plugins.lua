@@ -36,6 +36,9 @@ return require('packer').startup(function(use)
   -- Let's handle whitespace
   use "lukas-reineke/indent-blankline.nvim"
 
+  -- Git Blame
+  use 'f-person/git-blame.nvim'
+
   -- LSP
   use 'neovim/nvim-lspconfig'
   use 'hrsh7th/nvim-cmp'
@@ -43,4 +46,6 @@ return require('packer').startup(function(use)
   use 'hrsh7th/cmp-buffer'
   use 'hrsh7th/cmp-path'
   use 'L3MON4D3/LuaSnip'
+  -- Co-Pilot
+  use 'github/copilot.vim'
 end)
