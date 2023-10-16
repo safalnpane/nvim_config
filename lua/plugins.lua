@@ -46,6 +46,18 @@ return require('packer').startup(function(use)
   use 'hrsh7th/cmp-buffer'
   use 'hrsh7th/cmp-path'
   use 'L3MON4D3/LuaSnip'
+
+  -- Mason
+  use {
+    "williamboman/mason.nvim",
+    "williamboman/mason-lspconfig.nvim"
+  }
+
   -- Co-Pilot
   use 'github/copilot.vim'
+
+  -- Comment
+  use {
+    'numToStr/Comment.nvim'
+  }
 end)
