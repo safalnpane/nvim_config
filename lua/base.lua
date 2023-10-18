@@ -28,6 +28,7 @@ vim.opt.backspace = { 'start', 'eol', 'indent' }
 -- Gruvbox theme
 vim.cmd("colorscheme gruvbox")
 vim.opt.background = "dark"
+vim.cmd("highlight Normal guibg=none")
 
 -- Cursorline
 vim.opt.cursorline = true

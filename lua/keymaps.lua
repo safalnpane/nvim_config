@@ -36,9 +36,6 @@ end
 
 -- Telescope
 
--- Picker for git commited files
-vim.keymap.set('n', '<Leader>g', ":Telescope git_files<CR>")
-
 -- Picker for buffers
 vim.keymap.set('n', '<Leader>b', ":Telescope buffers<CR>")
 
@@ -47,3 +44,9 @@ vim.keymap.set('n', '<Leader>f', ":Telescope find_files<CR>")
 
 -- Picker for diagnostics
 vim.keymap.set('n', '<Leader>df', ":Telescope diagnostics<CR>")
+
+
+-- Git
+
+-- Open status
+vim.keymap.set('n', '<Leader>g', ":Git<CR>")
