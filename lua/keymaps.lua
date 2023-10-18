@@ -50,3 +50,7 @@ vim.keymap.set('n', '<Leader>df', ":Telescope diagnostics<CR>")
 
 -- Open status
 vim.keymap.set('n', '<Leader>g', ":Git<CR>")
+
+
+-- Explore
+vim.keymap.set('n', '<Leader>e', ":Explore<CR>")
