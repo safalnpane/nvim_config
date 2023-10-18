@@ -15,11 +15,11 @@ vim.keymap.set('n', 'sj', '<C-w>j')
 vim.keymap.set('n', 'sl', '<C-w>l')
 
 
--- Force delete (Unsaved) current buffer
+-- Force delete (Unsaved) current buffer. Easier to get rid of buffers on split.
 vim.keymap.set('n', 'es', ":bd!<cr>")
 
 if vim.fn.executable('python3') == 1 then
-  -- Format JSON if Python is available
+  -- Run http sever on port 8001
   vim.keymap.set('n', '<Leader>s', ":!python3 -m http.server 8001<cr>")
 else
   vim.keymap.set('n', '<Leader>s', ":print('Python3 was not found')<cr>")
