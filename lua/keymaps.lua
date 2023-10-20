@@ -46,3 +46,11 @@ vim.keymap.set('n', '<Leader>p', ":Git push<CR>")
 
 -- Explore
 vim.keymap.set('n', '<Leader>e', ":Explore<CR>")
+
+-- Harpoon
+
+-- Mark a file
+vim.keymap.set('n', '<Leader>m', ":lua require('harpoon.mark').add_file()<CR>")
+
+-- Open the quick menu
+vim.keymap.set('n', '<Leader>h', ":lua require('harpoon.ui').toggle_quick_menu()<CR>")
