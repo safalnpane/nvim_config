@@ -1,7 +1,7 @@
 -- Base configurations
 
 -- Greetings, fellow dev
-print("Hello Mr. Safal. Happy hacking.")
+print("Let's get'em Safal!")
 
 -- No swapfile please.
 vim.opt.swapfile = false
